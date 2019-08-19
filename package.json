@@ -1,6 +1,6 @@
 {
   "name": "apify-etl-cli",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Provides a set of ETL CLI commands to extract, transform, and load data into funtofu database.",
   "main": "fcli.js",
   "scripts": {
