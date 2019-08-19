@@ -1,0 +1,31 @@
+{
+  "name": "apify-etl-cli",
+  "version": "0.0.1",
+  "description": "Provides a set of ETL CLI commands to extract, transform, and load data into funtofu database.",
+  "main": "fcli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wchen02/apify-etl-cli.git"
+  },
+  "keywords": [
+    "CLI",
+    "extract",
+    "transform",
+    "load",
+    "apify",
+    "javascript"
+  ],
+  "author": "Wensheng Chen <hi@wenshengchen.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wchen02/apify-etl-cli/issues"
+  },
+  "homepage": "https://github.com/wchen02/apify-etl-cli#readme",
+  "dependencies": {
+    "apify-etl-lib": "github:wchen02/apify-etl-lib",
+    "commander": "^3.0.0"
+  }
+}
