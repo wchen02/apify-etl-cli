@@ -36,24 +36,23 @@ program
 async function main() {
     log.setLevel(getLogLevel());
 
-    // TODO: make all option names camelCase, so we don't need to transform them
     const options = {
-        MAX_CONCURRENCY: program.maxConcurrency,
-        LOG_LEVEL: getLogLevel(),
+        maxConcurrency: program.maxConcurrency,
+        logLevel: getLogLevel(),
         lifeListThumbnail: {
-            LIFE_LIST_THUMBNAIL_WIDTH: program.lifeListThumbnailWidth,
-            LIFE_LIST_THUMBNAIL_HEIGHT: program.lifeListThumbnailHeight,
+            width: program.lifeListThumbnailWidth,
+            height: program.lifeListThumbnailHeight,
         },
         lifeDetailThumbnail: {
-            LIFE_DETAIL_THUMBNAIL_WIDTH: program.lifeDetailThumbnailWidth,
-            LIFE_DETAIL_THUMBNAIL_HEIGHT: program.lifeDetailThumbnailHeight,
+            width: program.lifeDetailThumbnailWidth,
+            height: program.lifeDetailThumbnailHeight,
         },
-        DEVELOPMENT: program.development,
-        DATA_FILE: program.dataFile,
+        isDevelopment: program.development,
+        dataFile: program.dataFile,
         dir: {
-            DOWNLOAD_DIR: program.downloadDir,
-            RAW_DATA_DIR: program.rawDataDir,
-            NORMALIZED_DATA_DIR: program.normalizedDataDir,
+            download: program.downloadDir,
+            rawData: program.rawDataDir,
+            normalizedData: program.normalizedDataDir,
         }
     };
 
