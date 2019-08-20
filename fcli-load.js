@@ -16,7 +16,7 @@ program
     .description('Retrieves last run dataset items')
     .option('-s, --silent', 'Set log level to warn', defaultOptions.silent)
     .option('-d, --debug', 'Set log level to debug', defaultOptions.debug)
-    .option('-h, --host <host>', 'Set database host', defaultOptions.host)
+    .option('-H, --host <host>', 'Set database host', defaultOptions.host)
     .option('-u, --user <user>', 'Set database user', defaultOptions.user)
     .option('-p, --password <password>', 'Set database password', defaultOptions.password)
     .option('-D, --database <database>', 'Set database name', defaultOptions.database)
