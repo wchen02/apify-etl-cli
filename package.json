@@ -23,6 +23,9 @@
   ],
   "author": "Wensheng Chen <hi@wenshengchen.com>",
   "license": "MIT",
+  "bin": {
+    "fcli": "./fcli.js"
+  },
   "bugs": {
     "url": "https://github.com/wchen02/apify-etl-cli/issues"
   },
