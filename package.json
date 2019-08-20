@@ -30,7 +30,8 @@
   "dependencies": {
     "apify-etl-lib": "github:wchen02/apify-etl-lib",
     "commander": "^3.0.0",
-    "date-fns": "^1.30.1"
+    "date-fns": "^1.30.1",
+    "jsonfile": "^5.0.0"
   },
   "devDependencies": {
     "generate-changelog": "^1.8.0"

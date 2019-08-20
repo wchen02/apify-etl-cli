@@ -2,6 +2,7 @@ const log = require('loglevel');
 const program = require('commander');
 const apify = require('apify-etl-lib')();
 const format = require('date-fns/format');
+const jsonfile = require('jsonfile');
 
 const today = new Date();
 
@@ -35,6 +36,7 @@ program
 async function main() {
     log.setLevel(getLogLevel());
 
+    const inputJson = await jsonfile.readFile(program.inputJsonFile);
     // TODO: make all option names camelCase, so we don't need to transform them
     const options = {
         INPUT: inputJson,
