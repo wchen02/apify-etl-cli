@@ -15,10 +15,10 @@ program
     .description('Retrieves last run dataset items')
     .option('-s, --silent', 'Set log level to warn', defaultOptions.silent)
     .option('-d, --debug', 'Set log level to debug', defaultOptions.debug)
-    .option('-D, --download-dir <downloadDir>', 'Specifies the download directory to archive', defaultOptions.downloadDir)
-    .option('-R, --raw-data-dir <rawDataDir>', 'Specifies the raw data directory to archive', defaultOptions.rawDataDir)
-    .option('-N, --normalized-data-dir <normalizedDataDir>', 'Specifies the normalized data directory to archive', defaultOptions.normalizedDataDir)
-    .option('-A, --archived-dir <archivedDir>', 'Specifies the destination archived directory', defaultOptions.archivedDir)
+    .option('--download-dir <downloadDir>', 'Set the download directory to archive', defaultOptions.downloadDir)
+    .option('--raw-data-dir <rawDataDir>', 'Set the raw data directory to archive', defaultOptions.rawDataDir)
+    .option('--normalized-data-dir <normalizedDataDir>', 'Set the normalized data directory to archive', defaultOptions.normalizedDataDir)
+    .option('--archived-dir <archivedDir>', 'Set the destination archived directory', defaultOptions.archivedDir)
     .parse(process.argv)
 
 async function main() {
