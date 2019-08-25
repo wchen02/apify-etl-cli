@@ -1,3 +1,9 @@
+#### 1.0.2 (2019-08-25)
+
+##### Bug Fixes
+
+*  Copy pasted bug ([bc8d95a8](https://github.com/wchen02/apify-etl-cli/commit/bc8d95a84ea984e320ab0cf919fd377dc9da36bc))
+
 #### 1.0.1 (2019-08-25)
 
 ##### Chores
