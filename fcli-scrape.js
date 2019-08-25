@@ -49,7 +49,7 @@ async function main() {
         RUN_TASK_ENDPOINT: program.runTaskEndpoint,
     };
 
-    await apify.archive(options);
+    await apify.scrape(options);
 }
 
 function getLogLevel() {
