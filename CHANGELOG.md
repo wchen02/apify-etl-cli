@@ -1,3 +1,9 @@
+#### 1.0.1 (2019-08-25)
+
+##### Chores
+
+*  Update dependencies ([4d300f9c](https://github.com/wchen02/apify-etl-cli/commit/4d300f9cab739a7596ac3ebd8b4a005c13d39dd7))
+
 ## 1.0.0 (2019-08-20)
 
 ##### Documentation Changes
