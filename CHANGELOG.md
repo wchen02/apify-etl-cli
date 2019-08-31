@@ -1,3 +1,9 @@
+#### 1.1.1 (2019-08-31)
+
+##### Chores
+
+*  Update package ([b1b80a54](https://github.com/wchen02/apify-etl-cli/commit/b1b80a54d1100e898a097766fde5ccfeedf249df))
+
 ### 1.1.0 (2019-08-31)
 
 ##### New Features
