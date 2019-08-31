@@ -19,6 +19,10 @@ program
     .option('--raw-data-dir <rawDataDir>', 'Set the raw data directory to archive', defaultOptions.rawDataDir)
     .option('--normalized-data-dir <normalizedDataDir>', 'Set the normalized data directory to archive', defaultOptions.normalizedDataDir)
     .option('--archived-dir <archivedDir>', 'Set the destination archived directory', defaultOptions.archivedDir)
+    .option('--archived-download-dir <archivedDownloadDir>', 'Set the destination archived download directory')
+    .option('--archived-raw-data-dir <archivedRawDataDir>', 'Set the destination archived raw data directory')
+    .option('--archived-normalized-data-dir <archivedNormalizedDataDir>', 'Set the destination archived normalized directory')
+    .option('--skip-archive-download', 'Skips archiving download directory')
     .parse(process.argv)
 
 async function main() {
@@ -30,6 +34,10 @@ async function main() {
         DOWNLOAD_DIR: program.downloadDir,
         RAW_DATA_DIR: program.rawDataDir,
         NORMALIZED_DATA_DIR: program.normalizedDataDir,
+        ARCHIVED_DOWNLOAD_DIR: program.archivedDownloadDir,
+        ARCHIVED_RAW_DATA_DIR: program.archivedRawDataDir,
+        ARCHIVED_NORMALIZED_DATA_DIR: program.archivedNormalizedDataDir,
+        SKIP_ARCHIVE_DOWNLOAD: program.skipArchiveDownload,
     };
 
     await apify.archive(options);
