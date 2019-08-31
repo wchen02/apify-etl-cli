@@ -1,3 +1,9 @@
+### 1.1.0 (2019-08-31)
+
+##### New Features
+
+*  Added new options to fcli archive command ([4e8b79a8](https://github.com/wchen02/apify-etl-cli/commit/4e8b79a84f4e9de47ad5dbbe17308f3437762731))
+
 #### 1.0.2 (2019-08-25)
 
 ##### Bug Fixes
