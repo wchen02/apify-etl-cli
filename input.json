@@ -1,0 +1,10 @@
+{
+    "startDate": "08/31/2019",
+    "endDate": "08/31/2019",
+    "logLevel": 2,
+    "maxRequestRetries": 2,
+    "maxRequestsPerCrawl": 5000,
+    "maxRequestDepth": 15,
+    "maxConcurrency": 10,
+    "isTestRun": false
+}
