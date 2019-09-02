@@ -1,3 +1,9 @@
+#### 1.1.5 (2019-09-02)
+
+##### Other Changes
+
+*  Add input.json required for scrape command ([ae01daf3](https://github.com/wchen02/apify-etl-cli/commit/ae01daf3dbbcc8ae40de58a460db79e19ec025f5))
+
 #### 1.1.4 (2019-09-02)
 
 ##### Chores
