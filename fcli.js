@@ -2,7 +2,7 @@
 const program = require('commander');
  
 program
-  .version('0.0.1')
+  .version('1.1.3')
   .command('scrape', 'Scrapes the web to generate dataset items in apify cloud storage')
   .command('retrieve', 'Retrieves last successful run dataset items from apify')
   .command('normalize', 'Normalizes dataset items')
