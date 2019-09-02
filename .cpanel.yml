@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /opt/cpanel/ea-nodejs10/bin/npm clean-install
