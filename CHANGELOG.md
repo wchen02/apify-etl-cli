@@ -1,3 +1,17 @@
+#### 1.1.4 (2019-09-02)
+
+##### Chores
+
+*  Update cli version ([9e81372c](https://github.com/wchen02/apify-etl-cli/commit/9e81372c17b36b914621f98bfce6e7a9c820975e))
+
+##### Other Changes
+
+*  add cpanel deployment script ([dc6ba44b](https://github.com/wchen02/apify-etl-cli/commit/dc6ba44b2bfebee12c3aa0fd22533a37e7dde4d5))
+
+##### Refactors
+
+*  Update default scrape options ([2c0e06a8](https://github.com/wchen02/apify-etl-cli/commit/2c0e06a8bc23cdbec5d3d2caf29473055a169038))
+
 #### 1.1.3 (2019-08-31)
 
 ##### Other Changes
