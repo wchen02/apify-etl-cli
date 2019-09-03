@@ -1,3 +1,9 @@
+#### 1.1.7 (2019-09-03)
+
+##### Other Changes
+
+*  update scrape command default options ([5fd4a768](https://github.com/wchen02/apify-etl-cli/commit/5fd4a7688756b3acddd504f321a2d048a226f455))
+
 #### 1.1.6 (2019-09-03)
 
 ##### Bug Fixes
