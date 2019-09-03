@@ -13,7 +13,7 @@ const defaultOptions = {
     dryRun: false,
     requestsPerDay: 5000,
     requestDepthsPerDay: 15,
-    daily: true,
+    daily: false,
     startData: format(today, 'MM/DD/YYYY'),
     endDate: format(today, 'MM/DD/YYYY'),
     runTaskEndpoint: 'https://api.apify.com/v2/actor-tasks/RUN_TASK_ENDPOINT'
@@ -24,10 +24,10 @@ program
     .option('-s, --silent', 'Set log level to warn', defaultOptions.silent)
     .option('-d, --debug', 'Set log level to debug', defaultOptions.debug)
     .option('--input-json-file <inputJsonFile>', 'Set the filename of the apify input config json file', defaultOptions.inputJsonFile)
-    .option('--dry-run', 'True by default, set dry run to only run against a subset of the target site', defaultOptions.dryRun)
+    .option('--dry-run', 'Set dry run to only run against a subset of the target site', defaultOptions.dryRun)
     .option('--requests-per-day <requestsPerDay>', 'Set number of requests per day to scrape', defaultOptions.requestsPerDay)
     .option('--request-depths-per-day <requestDepthsPerDay>', 'Set number of levels of requests deep per day', defaultOptions.requestDepthsPerDay)
-    .option('--daily', 'False by default, set daily flag to run against today date', defaultOptions.daily)
+    .option('--daily', 'Set daily flag to run against today date', defaultOptions.daily)
     .option('-S, --start-data <startData>', 'Set start date to scrape', defaultOptions.startData)
     .option('-E, --end-date <endDate>', 'Set the end date to scrape', defaultOptions.endDate)
     .option('--run-task-endpoint <runTaskEndpoint>', 'Set the apify run task endpoint', defaultOptions.runTaskEndpoint)
