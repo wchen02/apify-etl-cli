@@ -1,3 +1,9 @@
+#### 1.1.6 (2019-09-03)
+
+##### Bug Fixes
+
+*  Fix scrape command not working ([f3a34819](https://github.com/wchen02/apify-etl-cli/commit/f3a348190febbea093a815c116e4480ffabbd331))
+
 #### 1.1.5 (2019-09-02)
 
 ##### Other Changes
