@@ -39,7 +39,6 @@ async function main() {
     const inputJson = await jsonfile.readFile(program.inputJsonFile);
     // TODO: make all option names camelCase, so we don't need to transform them
     const options = {
-        INPUT: inputJson,
         DRY_RUN: program.dryRun,
         REQUESTS_PER_DAY: program.requestsPerDay,
         REQUEST_DEPTHS_PER_DAY: program.requestDepthsPerDay,
@@ -49,7 +48,7 @@ async function main() {
         RUN_TASK_ENDPOINT: program.runTaskEndpoint,
     };
 
-    await apify.scrape(options);
+    await apify.scrape(options, { INPUT: inputJson });
 }
 
 function getLogLevel() {
